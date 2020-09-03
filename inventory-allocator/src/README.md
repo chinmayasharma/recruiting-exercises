@@ -8,7 +8,7 @@ If there are `I` items in the order, and `W` wareshouses, the function allocates
 
 ## Limitations & Assumptions
 
-This approach assumes that if a single warehouse cannot satisfy the order, then a linear aggregation of items in warehouses is acceptable. If an assumption were to be added that the cost of shipping form any two warehouses was less than shipping from the first three warehouses, then this approach no longer gives the optimal solution.
+This approach assumes that if a single warehouse cannot satisfy the order, then a linear aggregation of items in warehouses is acceptable. If an assumption were to be added that the cost of shipping from any two warehouses was less than shipping from the first three warehouses, and then generilze this for higher numbers, then this approach no longer gives the optimal solution.
 
 ## Testing
 
